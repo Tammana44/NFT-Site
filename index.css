@@ -1,0 +1,112 @@
+body{
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* typography */
+ h1 , h3{
+margin: 0;
+ }
+h1{
+  color: rgb(249, 244, 244);
+  font-size: 2.25em;
+  
+}
+h2{
+  margin-top: 0px;
+  font-size: 1.75em;
+}
+h3{
+  color: black;
+  font-size: 1.25em;
+ 
+}
+p{
+  line-height: 23px; 
+}
+/* links */
+a{
+  color: rgb(188, 15, 15);
+  text-decoration:underline dotted ;
+}
+a:hover ,a:active {
+  color: rgb(38, 2, 97);
+}
+
+/* layout */
+ 
+header , section , footer{
+  padding:  2.875em 0;
+}
+
+
+.section-two {
+color: rgb(21, 16, 16) ;
+
+
+}
+
+.main-img{
+  width:100% ;
+  max-width: 640px;
+  margin: 0 auto 2em;
+  display: block;
+}
+.container{
+  width:90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+header , .section-two {
+  background-color: grey;
+
+  
+}
+.feature-img {
+  width: 48.8%;
+  border-radius: 4.6px;
+}
+
+.section-two-img-container{
+  display: flex;
+  justify-content: space-between;
+}
+footer{
+text-align: center;
+color: gray;
+
+}
+.btn-dark{
+  background-color: rgb(178, 169, 169);
+  color:rgb(247, 37, 37);
+}
+
+.btn-mid{
+  background-color: rgb(178, 169, 169);
+  color:rgb(247, 37, 37);
+}
+.btn-light{
+  background-color: rgb(64, 62, 62);
+  color: rgb(205, 205, 54);
+}
+
+
+.btn  {
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.125em;
+  padding: 0.5em 1em;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+
+}
+
+.btn:hover,
+.btn:active
+{
+  background-color:rgb(66, 64, 64) ;
+  color: rgb(246, 74, 74);
+}
